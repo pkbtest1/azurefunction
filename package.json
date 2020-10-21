@@ -1,0 +1,13 @@
+{
+    "name": "20_10_2020",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "func start",
+        "test": "jest"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "jest": "^26.6.0"
+    }
+}
