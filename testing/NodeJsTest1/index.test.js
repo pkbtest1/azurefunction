@@ -10,5 +10,5 @@ test("Http trigger should return known text", async() => {
     await httpFunction(context, request);
 
     expect(context.log.mock.calls.length).toBe(1);
-    expect(context.res.body).toEqual("Hello Bill");
+    expect(context.res.body).toEqual("Hello Bill1");
 });
